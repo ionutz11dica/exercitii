@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script>
+        let students;
+       function getStudents (){      	
+	   
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.open("GET","student.json",false);
+		xmlhttp.onreadystatechange = function() {
+		if (this.status == 200) {
+		 students = JSON.parse(this.responseText);
+	  }
+	 
+	};
+	xmlhttp.send();
+  
+}
+    getStudents();
+    window.onload = function what(){
+        var btn = document.getElementById("btn");
+        btn.addEventListener("click",()=>{
+            document.getElementById("studenti").innerHTML=JSON.stringify(students)
+        })
+   
+};
+   
+    </script>
+    </head>
+    <body>
+        <button id="btn">Button</button>
+        <div id="studenti" > Adauga studenti</div>
+    </body>
+    
+</html>
