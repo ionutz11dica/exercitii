@@ -1,0 +1,15 @@
+{
+	"name": "Some name title",
+	"description": "Some description here",
+	"sizes": [10, 12, 14],
+	"price": 200,
+	"inventory": [{
+		"supplierName": "Some name",
+		"quantity": 10,
+		"aquisitionPrice": 100
+	}, {
+		"supplierName": "Some name",
+		"quantity": 10,
+		"aquisitionPrice": 100
+	}]
+}

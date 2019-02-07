@@ -1,0 +1,20 @@
+{
+	"accountHolder": "Some Name",
+	"currentBalance": 100,
+	"iban": "AABBSS",
+	"currency": "RON",
+	"transactions": [
+		{
+			"amount": 50,
+			"transactionType": "IN",
+			"beneficiaryName": "Some Name",
+			"approved": false
+		},
+		{
+			"amount": 50,
+			"transactionType": "IN",
+			"beneficiaryName": "Some Name",
+			"approved": true
+		}
+	]
+}

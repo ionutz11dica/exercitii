@@ -1,0 +1,15 @@
+{
+    "name": "Some Name",
+    "year": 3,
+    "credits": 100,
+    "superpowers": ["a", "b", "c"],
+    "grades": [{
+        "class": "Some class",
+        "homeworkSubmitted": true,
+        "examGrade": 5
+    },{
+        "class": "Some class",
+        "homeworkSubmitted": false,
+        "examGrade": 5
+    }]
+}
